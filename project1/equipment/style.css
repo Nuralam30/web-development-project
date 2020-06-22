@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*----Global styles start----*/
+.section-title h1{
+display: inline-block;
+text-transform: uppercase;
+font-size: 35px;
+font-weight: 700;
+color: #000000;
+position: relative;
+}
+.section-title h1:before{
+content: '';
+height: 3px;
+background-color: #febd01;
+margin-top: 45px;
+left: 0;
+right: 30%;
+position: absolute;
+}
+.section-title p{
+text-transform: uppercase;
+color: #838383;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 40px;
+letter-spacing: 2px;
+}
+/*----Global styles end----*/
+
+/*---home and head section----*/
+#head{
+	position: absolute;
+	border-bottom: 1px solid #423940;
+	left: 0;
+	right: 0;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap; 
+}
+#head .row{
+justify-content: space-between;
+align-items: center;
+}
+.container{
+	max-width: 1140px; 
+}
+#head .brand-name a{
+color: #dedede;
+font-size: 30px;
+font-weight: 600;
+text-decoration: none;
+text-transform: uppercase;
+padding: 0 15px;
+position: relative;
+}
+.navbar ul{
+font-size: 18px;
+font-weight: 500;
+padding: 0;
+margin: 0;
+}
+.navbar ul li{
+display: inline-block;
+margin-left: 25px;
+}
+#head .navbar ul li a{
+color: #dedede;
+text-decoration: none;
+line-height: 40px;
+position: relative;
+}
+#head .navbar ul li a::before{
+content: '';
+height: 3px;
+width: 0%;
+background-color: #ffffff;
+position: absolute;
+right: 0;
+top: 37px;
+transition: all .5s ease;
+}
+#head .navbar ul li a:hover::before{
+left: 0;
+width: 100%;
+}
+#head .navbar ul li a.active::before{
+left: 0;
+width: 100%;
+}
+#home{
+min-height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("nur.jpg"); 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 15px;
+}
+
+/*-----home section start---*/
+#home .full-screen{
+min-height: 100vh;
+}
+#home .home-content{
+flex: 0 0 100%;
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+#home .block{
+color: #ffffff;
+flex: 0 0 75%;
+max-width: 75%;
+padding-left: 45px;
+border-left: 5px solid #ffffff;
+
+}
+#home .block h5{
+font-size: 18px;
+font-weight: 500;
+flex: 0 0 75%;
+max-width: 75%;
+}
+#home .block h1{
+font-size: 70px;
+font-weight: 600;
+margin: 0;
+padding: 0;	
+}
+#home .block h3{
+font-size: 30px;
+font-weight: 500;
+/*color: skyblue;*/
+margin: 0;
+padding: 0;	
+}
+#home .block .cv-btn{
+margin-top: 40px;
+padding: 0;
+}
+#home .block .cv-btn a{
+text-decoration: none;
+color: #ffffff;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+border: 1px solid #ffffff;
+border-radius: 5px;
+padding: 10px 25px;
+transition: all .5s ease;
+}
+#home .block .cv-btn a:hover{
+background-color: #ffffff;
+color: #000;
+}
+/*----Home section end ---*/
+
+/*----about me start---*/
+#about-me{
+padding: 50px 15px;
+background-color: #fff;
+}
+#about-me .about-content .img{
+flex: 0 0 33.33%;
+max-width: 33.33%;
+}
+#about-me .about-content img{
+width: 100%;
+display: block;
+}
+#about-me .about-content .text-about{
+flex: 0 0 66.66%;
+max-width: 66.66%;
+padding-left: 50px;
+}
+#about-me .about-content .text-about h3{
+font-size: 30px;
+font-weight: 600;
+color: #000000;
+margin :0 0 10px;
+}
+#about-me .about-content .text-about h6{
+font-size: 18px;
+font-weight: 600;
+color: #000000;
+margin :0 0 15px;
+}
+#about-me .about-content .text-about h6 span{
+color: #febd01;
+}
+#about-me .about-content .text-about p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #838383;
+}
+#about-me .about-content .text-about .info{
+display: flex;
+flex: wrap;
+justify-content: space-between;
+}
+#about-me .about-content .text-about .info .list{
+margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+border-bottom: 1px solid #dee2e6;
+}
+#about-me .about-content .text-about .info label{
+font-size: 18px;
+color: #000000;
+font-weight: 600;
+}
+#about-me .about-content .text-about .info p{
+padding-left: 10px;
+font-size: 16px;
+}
+#about-me .about-content .text-about .social{
+margin-left: 150px;
+}
+#about-me .about-content .text-about .icon{
+background-color: #000000;
+font-size: 30px;
+color: #ffffff;
+border: 1px solid #535353;
+border-radius: 8px;
+width: 45px;
+text-align: center;
+display: inline-block;
+margin: 50px 5px;
+transition: all .5s ease;
+}
+#about-me .about-content .text-about .icon:hover{
+color: #000000;
+background-color: transparent; 
+}
+/*----About section end---*/
+
+/*-----Our service section start---*/
+#services{
+background-color: #dedede;
+padding: 100px 0;
+}
+#services .section-title h1:before{
+	left: 30%;
+}
+#services .service-content{
+flex: 0 0 100%;
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-top: 40px;
+justify-content: space-between;
+}
+#services .service-content .box{
+background-color: red;
+flex: 0 0 calc(33.33% - 20px);
+margin-bottom: 20px;
+}
