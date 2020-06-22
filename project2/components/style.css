@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*----Navigation start--*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	height: 45px;
+}
+.navbar-brand img{
+ 	height: 30px;
+ 	padding: 0;
+ 	padding-left: 30px;
+}
+.navbar-nav li{
+	margin-left: 20px;
+}
+#nav-bar ul li a:hover{
+ color:  #007bff!important;
+}
+.nav-link{
+	color: rgba(255,255,255,.5)!important;
+	font-weight: 400;
+}
+
+
+/*--slider--*/
+.slider{
+	width: 100%;
+}
+.carousel-item{
+	max-height: 600px;
+	width: 100%;
+}
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5{
+	color: #fff;
+	font-size: 40px;
+}
+
+/*---About us ---*/
+.about h1{
+	margin-top:20px;
+	margin-bottom:15px;
+}
+.skill p{
+	margin-top: 15px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+
+/*---Services style start---*/
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("service.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	margin-top: 50px;
+	padding: 50px 0;
+}
+#services h1{
+text-align: center;
+color: #efefef !important;
+padding-bottom: 2px;
+}
+#services h1::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 180px;
+	margin: 15px auto 5px;
+}
+.services{
+margin-top: 40px;
+}
+
+#services p{
+	font-size: 14px;
+	margin-top: 10px;
+	color: #ccc;
+}
+.icon{
+	font-size: 25px;
+	margin: 5px auto;
+	padding: 5px;
+	height: 50px;
+	width: 50px;
+	border: 1px solid #dedede;
+	border-radius: 50px;
+}
+.services .col-md-3:hover{
+	background: blue;
+	cursor: pointer;
+	transition: .75s;
+}
+
+/*----Team Members style---*/
+.team{
+	margin-top: 50px;
+}
+.team .col-md-3{
+	padding: 15px;
+}
+.team img{
+	width: 100%;
+}
+.team ul li{
+	list-style: none;
+}
+.team .icon{
+	font-size: 12px;
+	height: 25px! important;
+	width: 25px! important;
+}
