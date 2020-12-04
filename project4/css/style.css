@@ -1,0 +1,179 @@
+.site{
+	max-width: 1280px;
+	height: 1256px;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.mainmenu{
+
+}
+.mainmenu ul{
+	list-style-type: none;
+	margin-left: auto;
+	margin-top: 8px;
+}
+.mainmenu ul li{
+	float: left;
+}
+.mainmenu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 10pt;
+	padding: 8px 12px;
+	text-transform: uppercase;
+	/*line-height: 70px;*/
+	display: block;
+}
+.mainmenu ul li a.active, .mainmenu ul li a:hover{
+	background-color: #252525;
+	border-radius: 4px;
+}
+
+
+/*----banner section-----*/
+.banner{
+	margin-top: 34px;
+}
+.banner .text{
+	padding-right: 60px;
+}
+.banner .text h1{
+	font-size: 72px;
+	font-weight: bold;
+	font-family: verdana;
+	color: #2b410c;
+	margin-top: -15px;
+	padding-bottom: 20px;
+}
+.banner .text p{
+	font-size: 12px;
+	font-family: verdana;
+	color: #fff;
+}
+
+/*----ads section----*/
+.ads{
+	margin-top: 63px;
+}
+
+.ads h3{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: verdana;
+	color: #ccc9c9;
+}
+
+.ads a{
+	text-decoration: none;
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: verdana;
+	padding: 10px 40px;
+	margin-left: 14px;
+	margin-top: -10px;
+	background-color: #f4f3f3;
+	box-shadow: 3px 3px 0 #e4e1e1,
+				3px 3px 0 #e4e1e1,
+				3px 3px 0 #e4e1e1;
+}
+.ads a:hover{
+	background-color: #b6aeae;
+	border-radius: 5px;
+}
+
+/*----about-us section------*/
+.about{
+	margin-top: 50px;
+}
+.about-text{
+	padding-right: 15px;
+}
+.others-text{
+	padding-left: 15px;
+}
+.about h3{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: verdana;
+	color: #474747;
+}
+.about p{
+	font-size: 11px;
+	font-family: verdana;
+	color: #474747;
+}
+.about h5{
+	font-size: 11px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: verdana;
+	color: #474747;
+	padding-left: 50px;
+}
+
+/*--------articles section----*/
+.services{
+	margin-top: 20px;
+}
+.services img{
+	border: 1px solid #dedcdc;
+	padding: 5px;
+}
+.services h4{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: verdana;
+	color: #474747;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.services p{
+	font-size: 11px;
+	font-family: verdana;
+	color: #474747;
+}
+.services .first{
+	padding-left: 0;
+}
+.services .fourth{
+	padding-right: 0;
+}
+
+
+/*----page theme section---*/
+.page-theme{
+	margin-top: 55px;
+}
+.page-theme h6{
+	color: #cccdd2;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: verdana;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.page-theme p{
+	color: #7a7a7f;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: verdana;
+}
+.page-theme .first{
+	padding-left: 0;
+}
+.page-theme .fourth{
+	padding-right: 0;
+}
+
+/*------footer section-----*/
+.footer{
+	margin-top: 34px;
+}
+.footer p{
+	color: #424242;
+	font-size: 12px;
+	font-family: verdana;
+}
